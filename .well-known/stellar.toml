@@ -2,6 +2,7 @@ VERSION="2.2.1"
 
 ACCOUNTS=[
 "GDCLM6CEVNP6W4B3XFVDAJG6WBSUFWJQME2XOS6ROWBI7CQYCETJHGYU",
+"GA7FWTR22AIJYTJKP2LEUATRV22YVAFN3AH6LGXYJUF4FOMFICN5MNJ5",
 ]
 
 [DOCUMENTATION]
@@ -24,3 +25,17 @@ fixed_number=1000000
 max_number=1000000
 is_unlimited=false
 #SkyTeam Asset was issued using the open and inclusive Stellar blockchain network.
+
+[[CURRENCIES]]
+code="DAL"
+status="live"
+display_decimals=2
+issuer="GA7FWTR22AIJYTJKP2LEUATRV22YVAFN3AH6LGXYJUF4FOMFICN5MNJ5"
+anchor_asset_type="crypto"
+name="Delta Air Lines"
+desc="Delta Air Lines, a leader in domestic and international travel, offers airline tickets & flights to over 230 destinations in over 54 countries. Headquartered in Atlanta, Delta also has hubs in New York, Los Angeles, Boston, Seattle, Detroit, Minneapolis, and Salt Lake City."
+image="https://www.skyteam-stellar.com/dal.jpg"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#DAL Asset was issued using the open and inclusive Stellar blockchain network.
