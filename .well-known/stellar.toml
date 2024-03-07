@@ -3,13 +3,14 @@ VERSION="2.2.1"
 ACCOUNTS=[
 "GDCLM6CEVNP6W4B3XFVDAJG6WBSUFWJQME2XOS6ROWBI7CQYCETJHGYU",
 "GA7FWTR22AIJYTJKP2LEUATRV22YVAFN3AH6LGXYJUF4FOMFICN5MNJ5",
+"GDYNHSMEEKMBEGDJ5P2UPYLQTQ5GWWEAFWB5IHICFGSJK666S3PV4A2C",
 ]
 
 [DOCUMENTATION]
 ORG_NAME="SkyTeam"
 ORG_URL="https://www.skyteam-stellar.com/"
 ORG_DESCRIPTION="Fly with us. Anywhere. Now with Stellar Network"
-ORG_LOGO="https://www.skyteam-stellar.com/sta.png"
+ORG_LOGO="https://www.skyteam-stellar.com/sta.jpeg"
 
 
 [[CURRENCIES]]
@@ -20,7 +21,7 @@ issuer="GDCLM6CEVNP6W4B3XFVDAJG6WBSUFWJQME2XOS6ROWBI7CQYCETJHGYU"
 anchor_asset_type="crypto"
 name="SkyTeam"
 desc="SkyTeam first and only Asset on Stellar Blockchain."
-image="https://www.skyteam-stellar.com/sta.png"
+image="https://www.skyteam-stellar.com/sta.jpeg"
 fixed_number=1000000
 max_number=1000000
 is_unlimited=false
@@ -39,3 +40,17 @@ fixed_number=10000000
 max_number=10000000
 is_unlimited=false
 #DAL Asset was issued using the open and inclusive Stellar blockchain network.
+
+[[CURRENCIES]]
+code="SAL"
+status="live"
+display_decimals=2
+issuer="GDYNHSMEEKMBEGDJ5P2UPYLQTQ5GWWEAFWB5IHICFGSJK666S3PV4A2C"
+anchor_asset_type="crypto"
+name="Saudia"
+desc="Saudia, formerly known as Saudi Arabian Airlines, is the flag carrier of Saudi Arabia, based in Jeddah. The airline's main hub is at King Abdulaziz International Airport in Jeddah and King Khalid International Airport in Riyadh."
+image="https://www.skyteam-stellar.com/sal.png"
+fixed_number=10000000
+max_number=10000000
+is_unlimited=false
+#SAL Asset was issued using the open and inclusive Stellar blockchain network.
