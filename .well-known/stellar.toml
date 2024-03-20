@@ -4,6 +4,7 @@ ACCOUNTS=[
 "GDCLM6CEVNP6W4B3XFVDAJG6WBSUFWJQME2XOS6ROWBI7CQYCETJHGYU",
 "GA7FWTR22AIJYTJKP2LEUATRV22YVAFN3AH6LGXYJUF4FOMFICN5MNJ5",
 "GDYNHSMEEKMBEGDJ5P2UPYLQTQ5GWWEAFWB5IHICFGSJK666S3PV4A2C",
+"GBABLQXL6KVPRD3QKHWYOASO3HS2D5S52XL77XC2OOUHREE2ERJQ7YMF",
 ]
 
 [DOCUMENTATION]
@@ -24,8 +25,6 @@ desc="SkyTeam first and only Asset on Stellar Blockchain."
 image="https://www.skyteam-stellar.com/sta.jpeg"
 fixed_number=1000000
 max_number=1000000
-is_unlimited=false
-#SkyTeam Asset was issued using the open and inclusive Stellar blockchain network.
 
 [[CURRENCIES]]
 code="DAL"
@@ -38,8 +37,6 @@ desc="Delta Air Lines, a leader in domestic and international travel, offers air
 image="https://www.skyteam-stellar.com/dal.jpg"
 fixed_number=10000000
 max_number=10000000
-is_unlimited=false
-#DAL Asset was issued using the open and inclusive Stellar blockchain network.
 
 [[CURRENCIES]]
 code="SAL"
@@ -52,5 +49,15 @@ desc="Saudia, formerly known as Saudi Arabian Airlines, is the flag carrier of S
 image="https://www.skyteam-stellar.com/SAL.png"
 fixed_number=10000000
 max_number=10000000
-is_unlimited=false
-#SAL Asset was issued using the open and inclusive Stellar blockchain network.
+
+[[CURRENCIES]]
+code="GIA"
+status="live"
+display_decimals=2
+issuer="GBABLQXL6KVPRD3QKHWYOASO3HS2D5S52XL77XC2OOUHREE2ERJQ7YMF"
+anchor_asset_type="crypto"
+name="Garuda Indonesia"
+desc="Garuda Indonesia, the flagship airline of Indonesia, seamlessly connects more than 60 destinations worldwide."
+image="https://www.skyteam-stellar.com/gia.jpg"
+fixed_number=100000000
+max_number=100000000
