@@ -5,6 +5,7 @@ ACCOUNTS=[
 "GA7FWTR22AIJYTJKP2LEUATRV22YVAFN3AH6LGXYJUF4FOMFICN5MNJ5",
 "GDYNHSMEEKMBEGDJ5P2UPYLQTQ5GWWEAFWB5IHICFGSJK666S3PV4A2C",
 "GBABLQXL6KVPRD3QKHWYOASO3HS2D5S52XL77XC2OOUHREE2ERJQ7YMF",
+"GC3OL7OQULRKTIL2PTNOND6OFEPPATRNIA5RFHHRKXY2TSKAMHZHLVES",
 ]
 
 [DOCUMENTATION]
@@ -61,3 +62,15 @@ desc="Garuda Indonesia, the flagship airline of Indonesia, seamlessly connects m
 image="https://www.skyteam-stellar.com/gia.jpg"
 fixed_number=100000000
 max_number=100000000
+
+[[CURRENCIES]]
+code="STLite"
+status="live"
+display_decimals=2
+issuer="GC3OL7OQULRKTIL2PTNOND6OFEPPATRNIA5RFHHRKXY2TSKAMHZHLVES"
+anchor_asset_type="crypto"
+name="SkyTeam Lite"
+desc="SkyTeam Lite will get everyone on board of the greatest Airline Alliances."
+image="https://www.skyteam-stellar.com/stl.jpg"
+fixed_number=1000000
+max_number=1000000
